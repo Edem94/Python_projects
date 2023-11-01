@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97567e22-78de-4cea-aa14-51438090ec28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../board/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/board.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/advertisement_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/regions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/templates/advertisements/second_advert_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/advertisements/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/middleware/filter_ip_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/middleware/filter_ip_middleware2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/middleware/thread_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2F2v0uX1ANfTsfJ4vqF7LZg6K1Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97567e22-78de-4cea-aa14-51438090ec28" name="Changes" comment="" />
+      <created>1663702774205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663702774205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
