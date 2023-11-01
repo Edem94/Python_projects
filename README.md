@@ -1,2 +1,2 @@
-# Task manager simple project
-Task manager project created with Python Django Framework
+# Python projects
+Simple projects created with Python and Django Framework
