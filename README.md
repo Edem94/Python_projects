@@ -1,2 +1,2 @@
 # Python_projects
-Basic Python programs with algoritmization
+Task manager project created with Python Django Framework
