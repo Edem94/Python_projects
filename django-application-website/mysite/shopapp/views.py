@@ -1,7 +1,7 @@
 """
-В этом модуле лежат различные наборы представлений.
+There are different views in this module.
 
-Разные view интернет-магазина: по товарам, заказам и т.д.
+Different view for the online-shop: for products, orders etc.
 """
 from timeit import default_timer
 from django.contrib.auth.models import User
@@ -36,9 +36,9 @@ log = logging.getLogger(__name__)
 @extend_schema(description="Product views CRUD")
 class ProductViewSet(ModelViewSet):
     """
-    Набор представлений для действий над Product.
+    Set of view for the actions with Product.
 
-    Полный CRUD для сущностей товара
+    Full CRUD for product entities
     """
 
     queryset = Product.objects.all()
@@ -64,7 +64,6 @@ class ProductViewSet(ModelViewSet):
 
     @method_decorator(cache_page(60 * 2))
     def list(self, *args, **kwargs):
-        # print('Hello products list')
         return super().list(*args, **kwargs)
 
     @extend_schema(
@@ -118,9 +117,9 @@ class ProductViewSet(ModelViewSet):
 @extend_schema(description="Order views CRUD")
 class OrderViewSet(ModelViewSet):
     """
-    Набор представлений для действий над Order.
+    Set of view for the actions with Order.
 
-    Полный CRUD для сущностей заказа
+    Full CRUD for order entities
     """
 
     queryset = Order.objects.all()

@@ -40,7 +40,7 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
         OrderInline,
         ProductInline,
     ]
-    # list_display = "pk", "name", "description", "price", "discount"
+
     list_display = "pk", "name", "description_short", "price", "discount", "archived"
     list_display_links = "pk", "name"
     ordering = "-name", "pk"
@@ -100,19 +100,6 @@ class ProductAdmin(admin.ModelAdmin, ExportAsCSVMixin):
             ),
         ]
         return new_urls + urls
-
-
-# def save_csv_products(file, encoding):
-#     csv_files = TextIOWrapper(
-#         file,
-#         encoding=encoding,
-#     )
-#     reader = DictReader(csv_files)
-#     products = [
-#         Product(**row) for row in reader
-#     ]
-#     Product.objects.bulk_create(products)
-#     return products
 
 
 class ProductInline(admin.StackedInline):
