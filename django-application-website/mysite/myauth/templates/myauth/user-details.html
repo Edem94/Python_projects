@@ -1,0 +1,31 @@
+{% extends 'myauth/base.html' %}
+
+{% block title %}
+  User #{{ user.pk }}
+{% endblock %}
+
+{% block body %}
+  <h1>User <strong>{{ user.username }}</strong></h1>
+  <div>
+    <div>City: {{ user.profile.city }}</div>
+    <div>Date_of_birth: {{ user.profile.date_of_birth }}</div>
+    {% if user.profile.avatar %}
+      <img src="{{ user.profile.avatar.url }}" alt="{{ user.profile.avatar.name }}">
+    {% else %}
+      <p>Avatar is not uploaded.</p>
+    {% endif %}
+  </div>
+
+  <div>
+    {% if request.user.is_authenticated and request.user.is_staff or user.profile.user == request.user %}
+      <p>You can update the profile by this link.</p>
+      <a href="{% url 'myauth:profile_update' pk=user.pk %}">Update profile</a>
+    {% else %}
+        <p>You don't have permission to update the profile.</p>
+    {% endif %}
+  </div>
+
+  <div>
+    <a href="{% url 'myauth:users-list' %}">Back to users list</a>
+  </div>
+{% endblock %}
