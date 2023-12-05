@@ -1,0 +1,51 @@
+{% extends 'shopapp/base.html' %}
+{% load cache %}
+
+{% load i18n %}
+
+{% block title %}
+  {% translate 'Shop Index' %}
+{% endblock %}
+
+
+{% block body %}
+  <h1>{% translate 'Hello Shop Index!' %}</h1>
+  <div>
+    <ul>
+      {% for name, price in products %}
+        <li>
+          {{ name }} ({{ name|length }}) for ${{ price }}
+        </li>
+        {% if name|length_is:'7' %}
+          <span>Lucky product!</span>
+        {% endif %}
+      {% empty %}
+        {% translate 'No products here' %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <strong>
+      {% translate 'You have' %} {{ items }} cherr{{ items|pluralize:"y,ies" }}
+    </strong>
+  </div>
+  <div>
+    {% translate 'Time running' %}: {{ time_running }}
+  </div>
+  {% cache 100 lorem products %}
+    <div>
+      {% lorem 3 p random %}
+    </div>
+  {% endcache %}
+  <div>
+    <ul>
+      {% url 'shopapp:products_list' as products_list_url %}
+      {% url 'shopapp:orders_list' as orders_list_url %}
+      {% blocktranslate %}
+      <li><a href="{{ products_list_url }}">Products</a></li>
+      <li><a href="{{ orders_list_url }}">Orders</a></li>
+      {% endblocktranslate %}
+    </ul>
+  </div>
+
+{% endblock %}

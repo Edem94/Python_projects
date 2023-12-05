@@ -1,0 +1,63 @@
+{% extends 'shopapp/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+  {% translate 'Product' %} #{{ product.pk }}
+{% endblock %}
+
+{% block body %}
+  <h1>{% translate 'Product ' %}<strong>{{ product.name }}</strong></h1>
+  <div>
+    {% blocktranslate %}
+    <div>Description: <em>{{ product.description }}</em></div>
+    <div>Price: {{ product.price }}</div>
+    <div>Discount: {{ product.discount }}</div>
+    <div>Archived: {{ product.archived }}</div>
+    <div>Created by: {{ product.created_by }}</div>
+    {% endblocktranslate %}
+  </div>
+  {% if product.preview %}
+    <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
+  {% endif %}
+  {% if product.images %}
+    <div>
+      {% blocktranslate count image_count=product.images.all|length %}
+        There is only one image.
+        {% plural %}
+        There are {{ image_count }} images.
+      <h3>Images:</h3>
+      {% endblocktranslate %}
+    </div>
+    <div>
+      {% for img in product.images.all %}
+        <div>
+          <img src="{{ img.image.url }}" alt="img.image.name">
+          <div>{{ img.description }}</div>
+        </div>
+      {% empty %}
+        <div>{% translate 'No images uploaded yet' %}</div>
+      {% endfor %}
+    </div>
+
+  {% endif %}
+
+  <div>
+    {% if product.created_by == user or user.is_superuser %}
+      {% url 'shopapp:product_update' pk=product.pk as update_product_url %}
+      {% blocktranslate %}
+        <p>You have permission to update this product.</p>
+        <a href="{{ update_product_url }}">Update product</a>
+      {% endblocktranslate %}
+    {% else %}
+        <p>{% translate 'You do not have permission to update this product' %}.</p>
+    {% endif %}
+  </div>
+
+  <div>
+    <a href="{% url 'shopapp:product_delete' pk=product.pk %}">{% translate 'Archive product' %}</a>
+  </div>
+  <div>
+    <a href="{% url 'shopapp:products_list' %}">{% translate 'Back to products list' %}</a>
+  </div>
+{% endblock %}
