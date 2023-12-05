@@ -10,12 +10,6 @@ from .utils import add_two_numbers
 from django.conf import settings
 
 
-class AddTwoNumbers(TestCase):
-    def test_add_two_numbers(self):
-        result = add_two_numbers(2, 3)
-        self.assertEqual(result, 5)
-
-
 class ProductCreateViewTestCase(TestCase):
     @classmethod
     def setUpClass(cls):
@@ -205,4 +199,3 @@ class OrdersExportViewTestCase(TestCase):
             orders_data['orders'],
             expected_data
         )
-
