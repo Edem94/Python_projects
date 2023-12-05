@@ -1,0 +1,1535 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-06-02T21:12:09.540Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Product(pk=1, name='Хлеб')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-06-02T21:12:27.174Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Product(pk=2, name='Молоко')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-06-02T21:12:47.998Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Product(pk=3, name='Помидоры')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-06-02T21:14:08.420Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Order object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-06-02T21:14:21.403Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Order object (1)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-06-02T21:15:09.091Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Order object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-06-13T17:39:47.786Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Product(pk=4, name='Яйца')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-06-13T17:41:02.077Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Order object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-07-04T18:31:20.377Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Order object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-07-04T18:32:05.509Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Product(pk=5, name='Огурцы соленые')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"order-product relationship\", \"object\": \"Order_products object (5)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-07-04T18:38:22.320Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Product(pk=5, name='Огурцы соленые')",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-07-04T18:39:00.961Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Product(pk=5, name='Огурцы соленые')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Discount\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-07-04T18:39:20.307Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Product(pk=4, name='Яйца')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Discount\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-07-04T18:39:35.632Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Product(pk=1, name='Хлеб')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-07-04T18:39:48.262Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Product(pk=3, name='Помидоры')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-07-04T18:40:01.980Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Product(pk=2, name='Молоко')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-07-04T18:43:16.801Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-07-06T20:53:29.155Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Order object (4)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-07-06T21:01:56.224Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Order object (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-07-08T12:50:17.100Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Edik94",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-07-08T12:50:56.936Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "EdemS",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-07-09T09:41:42.012Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "New group",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-07-09T09:45:40.565Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "sami",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-07-09T10:21:42.211Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-07-09T10:57:11.716Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "nick",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-07-09T11:36:39.343Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "Product creators",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-07-09T11:37:10.715Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "nick",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-07-10T20:24:56.896Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-07-10T20:25:07.886Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "EdemS",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-07-10T20:25:19.392Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "fake",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-07-10T20:25:25.926Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-07-10T20:25:46.681Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "nick",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-07-10T20:26:15.182Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "sami",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-07-11T20:53:31.115Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-07-11T20:53:42.176Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "Product creators",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-07-11T20:55:14.007Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "Product creators",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-07-11T20:55:18.044Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "Product creators",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-07-11T20:55:49.127Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-07-14T12:44:09.717Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-07-14T13:42:00.741Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Edik94",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-07-14T13:42:41.763Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Edik94",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-07-14T13:43:03.334Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-08-22T17:18:55.386Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Order object (3)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Delivery address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-08-22T17:19:50.344Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Order object (2)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Delivery address\", \"Products\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-08-22T17:20:13.855Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Order object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Delivery address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-08-22T17:21:28.080Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-08-22T17:27:44.726Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Product(pk=4, name='Eggs')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-08-22T17:29:03.231Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Product(pk=10, name='Lentil')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-08-22T17:29:38.896Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Product(pk=1, name='Bread')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-08-22T17:30:55.712Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Product(pk=7, name='Cottage cheese')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-08-22T17:31:30.997Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Product(pk=8, name='Творог')",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-08-22T17:32:02.803Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Product(pk=3, name='Tomatoes')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-08-22T17:32:22.285Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Product(pk=13, name='Cookies')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-08-22T17:32:37.449Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "Product(pk=15, name='Nuts')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-08-22T17:33:00.602Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Product(pk=11, name='Nuts')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-08-22T17:33:31.242Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Product(pk=5, name='Salty cucumbers')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-08-22T17:33:52.351Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Product(pk=12, name='Cucumber')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-08-22T17:34:13.372Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Product(pk=6, name='Meat')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-08-22T17:34:28.086Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Product(pk=2, name='Milk')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-08-22T17:34:57.681Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Product(pk=18, name='Chiken breast')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-08-22T17:35:26.681Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "Product(pk=14, name='Candies')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-08-22T17:35:42.869Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Product(pk=9, name='Sausage')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-08-22T17:35:58.712Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Product(pk=19, name='Cherry')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-08-24T18:19:02.447Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Products\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-08-24T18:19:22.895Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-08-24T18:19:38.229Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Order object (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Products\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-08-24T20:59:06.451Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "john",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-08-29T21:21:00.311Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Receipt\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-08-30T16:11:39.763Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Order object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Receipt\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-09-04T18:50:29.441Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Product(pk=20, name='Laptop')",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-09-04T18:53:20.745Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Product(pk=20, name='Laptop')",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (2)\"}}]"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Admin",
+      "permissions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        33,
+        34,
+        35,
+        36,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "profile_manager",
+      "permissions": [
+        36
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "New group",
+      "permissions": [
+        17,
+        33,
+        21
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 4,
+    "fields": {
+      "name": "Product creators",
+      "permissions": [
+        25,
+        28
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$LLSOwoUVfXNZbARVVGTBJY$vJSTDvlFCwxr26kDhvCOLqE1BuS8EIXARUXG2MhjHec=",
+      "last_login": "2023-09-18T17:57:04.403Z",
+      "is_superuser": true,
+      "username": "EdemS",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-04-12T19:00:05Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$lkNASDnmVPFwUUfxn1aFzh$ZKACDWA96ME5pwjrba2d4F/6RhQtRPQc3ez4GUNmSDU=",
+      "last_login": "2023-05-18T20:22:20Z",
+      "is_superuser": false,
+      "username": "Edik94",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-18T20:21:54Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": [
+        25
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$RuHCvkMBeDEuNrXhinzgfA$961l5nsbp9GJpXQCski5QbLRFxEaL4ZqDo1NY/srG+E=",
+      "last_login": "2023-09-29T16:46:02.578Z",
+      "is_superuser": false,
+      "username": "john",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-05-18T20:33:35Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": [
+        4,
+        32,
+        26
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$k4mpcjdTwuTXh7dIXFl44b$S7g3YLz62XGmWkOaYch0qdRKBXejqSe7wKmrUcWgcok=",
+      "last_login": "2023-07-14T13:49:31.281Z",
+      "is_superuser": false,
+      "username": "sami",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-18T20:48:31Z",
+      "groups": [
+        2,
+        4
+      ],
+      "user_permissions": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Kf7VcXo89nEH4KbopeW3Hm$c+81X3BQ4hoSk7Z0AkmHJ7ABAht7zfBI44wYyIkjQ7w=",
+      "last_login": "2023-05-18T20:59:13Z",
+      "is_superuser": false,
+      "username": "fake",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-18T20:59:11Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$LrTK8eyQa1gk9N1iSQdp9i$+0VtoS7vbUbJQNhK7OsXuRyB6its304/ewwS5l3jG/o=",
+      "last_login": "2023-09-16T19:37:33.633Z",
+      "is_superuser": false,
+      "username": "nick",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-09T10:54:48Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": [
+        36
+      ]
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "5sudkr0pfju2aevmaf4pqbeewqvhfmjs",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAUBf-FtSE8ChSX7v0GAvchVUOT0q6M_65NutDtmZnzEilva01bpyVNKM7CitPvVjI8qO0A77ndZglzW5epyF2RB-3yOiM9L4f7d1Bzr996ADboBlYFjSNkXUIwlpRDi9oAGR2jZ83kio7sCZTyAaKCkVWwehTvD_lzOAI:1qKkWM:Y1uyijUqAicUmdFXk38jbpZL429sLnubv0P8c5G0bLI",
+      "expire_date": "2023-07-29T19:01:34.921Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b5qjpnehjp47twh3szmv7anixbrsij55",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoC2Nduu8ZCDPDSNVAUtqV8e7apAvd_vfef6kQtzWHraUlzKwuyqrT74aRHqnsgO-x3KqmWtZlRr0r-qBNT5XT83q4fwc5tvytwaToUMQb6niQHoaOhMkbZ5EEzdiJnMVYgsgjJHYeRwBC9pigR1LvDw8NOVY:1pnRkk:TrZIpoFy8XDvkcKk3vagYyUjZD9SH78glgo-9VpzFOc",
+      "expire_date": "2023-04-28T22:18:46.829Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "nln0jkddj8vb38y2ifs6evibjgvc2hjo",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoC2Nduu8ZCDPDSNVAUtqV8e7apAvd_vfef6kQtzWHraUlzKwuyqrT74aRHqnsgO-x3KqmWtZlRr0r-qBNT5XT83q4fwc5tvytwaToUMQb6niQHoaOhMkbZ5EEzdiJnMVYgsgjJHYeRwBC9pigR1LvDw8NOVY:1pt3Tf:ruB0Rcaa9I_t9i-LFBBZI8dr6icMKTKspyXRJ7KyX9g",
+      "expire_date": "2023-05-14T09:36:19.395Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "px3m8l2vjzl861rl48km9mvg6hdwvdwc",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAoA4JL9z0DGZhBqoYmpV0Z765NutDtf-_9l4i4rTVunZc4kbgII06_W8L84LYDumO7zTLPbV2mJHdFHrTLcSZ-Xg_376Bir98arE-Og4dgyCsCa0iBZtYEjhjZgtcBCxpUxiXINoVBO130oPI5FCfeH9Q6N3Y:1qmGcs:7t4q5bsFC_x9gdWCSG73e17EIz8liPB4FLCPN84_vno",
+      "expire_date": "2023-10-13T16:46:02.590Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "rqobyf0u2zg35epgsdzjv8iahi3p5vi3",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoC2Nduu8ZCDPDSNVAUtqV8e7apAvd_vfef6kQtzWHraUlzKwuyqrT74aRHqnsgO-x3KqmWtZlRr0r-qBNT5XT83q4fwc5tvytwaToUMQb6niQHoaOhMkbZ5EEzdiJnMVYgsgjJHYeRwBC9pigR1LvDw8NOVY:1qAyLY:VoG8pQoJH8WrKtVU7LENrqPrEL0eJOuQafl_94Q4xWQ",
+      "expire_date": "2023-07-02T19:46:00.163Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "s0v530cegrfx0mf6cyukz3nt88xxxqyz",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoC2Nduu8ZCDPDSNVAUtqV8e7apAvd_vfef6kQtzWHraUlzKwuyqrT74aRHqnsgO-x3KqmWtZlRr0r-qBNT5XT83q4fwc5tvytwaToUMQb6niQHoaOhMkbZ5EEzdiJnMVYgsgjJHYeRwBC9pigR1LvDw8NOVY:1q5C3Y:zlKSGWMHgDPuXdp5AA_K0J-8Q7oIr802Qg7rSPxgt50",
+      "expire_date": "2023-06-16T21:11:32.182Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wgqy2mfe3a85t16jicweg5vez4rj3kli",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoC2Nduu8ZCDPDSNVAUtqV8e7apAvd_vfef6kQtzWHraUlzKwuyqrT74aRHqnsgO-x3KqmWtZlRr0r-qBNT5XT83q4fwc5tvytwaToUMQb6niQHoaOhMkbZ5EEzdiJnMVYgsgjJHYeRwBC9pigR1LvDw8NOVY:1qae35:ayvMQ56fFdpOv9elyGMHGS3Csd_HWZE8kZOlkVarSrE",
+      "expire_date": "2023-09-11T15:21:03.827Z"
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Bread",
+      "description": "Very tasty and not expensive bread",
+      "price": "15.00",
+      "discount": 0,
+      "created_at": "2023-06-02T21:12:09.535Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Milk",
+      "description": "Fresh milk",
+      "price": "50.00",
+      "discount": 0,
+      "created_at": "2023-06-02T21:12:27.172Z",
+      "archived": false,
+      "created_by": 4
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Tomatoes",
+      "description": "Red large tomatoes",
+      "price": "50.00",
+      "discount": 0,
+      "created_at": "2023-06-02T21:12:47.996Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Eggs",
+      "description": "Eggs box 10 items",
+      "price": "20.00",
+      "discount": 5,
+      "created_at": "2023-06-13T17:39:47.783Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Salty cucumbers",
+      "description": "marinated and salty cucumbers, very tasty",
+      "price": "150.00",
+      "discount": 10,
+      "created_at": "2023-07-04T18:32:05.506Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "Meat",
+      "description": "Fresh beef, not expensive",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-09T11:32:03.498Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "Cottage cheese",
+      "description": "Cottage cheese",
+      "price": "10.00",
+      "discount": 2,
+      "created_at": "2023-07-09T11:38:49.943Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Sausage",
+      "description": "Fresh chicken sausage",
+      "price": "100.00",
+      "discount": 10,
+      "created_at": "2023-07-10T16:44:54.665Z",
+      "archived": false,
+      "created_by": 4
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "Lentil",
+      "description": "Red fresh lentil",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-10T16:47:16.647Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "Nuts",
+      "description": "Greek nuts",
+      "price": "50.00",
+      "discount": 2,
+      "created_at": "2023-07-10T19:49:33.286Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 12,
+    "fields": {
+      "name": "Cucumber",
+      "description": "marinated and salty cucumbers, very tasty",
+      "price": "0.00",
+      "discount": 0,
+      "created_at": "2023-07-10T20:31:45.766Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "Cookies",
+      "description": "Sweety tasties",
+      "price": "50.00",
+      "discount": 2,
+      "created_at": "2023-07-10T20:33:07.213Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "Candies",
+      "description": "Chocolate candies, sweets",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-11T18:56:16.394Z",
+      "archived": false,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "Nuts",
+      "description": "Greek nuts",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-11T18:57:29.868Z",
+      "archived": false,
+      "created_by": 6
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "Nuggets",
+      "description": "Nuggets fried",
+      "price": "100.00",
+      "discount": 13,
+      "created_at": "2023-07-11T20:16:59.976Z",
+      "archived": false,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "Orange",
+      "description": "Tasty oranges",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-14T11:35:30.640Z",
+      "archived": false,
+      "created_by": 4
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 18,
+    "fields": {
+      "name": "Chicken breast",
+      "description": "Fresh tasty chicken breast",
+      "price": "100.00",
+      "discount": 10,
+      "created_at": "2023-07-14T13:44:26.184Z",
+      "archived": false,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 19,
+    "fields": {
+      "name": "Cherry",
+      "description": "Tasty cherries",
+      "price": "50.00",
+      "discount": 5,
+      "created_at": "2023-07-15T19:02:45.226Z",
+      "archived": true,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 20,
+    "fields": {
+      "name": "Laptop",
+      "description": "New modern laptop",
+      "price": "1000.00",
+      "discount": 10,
+      "created_at": "2023-09-04T18:29:03.387Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "Chicken breast",
+      "description": "Fresh chicken",
+      "price": "150.00",
+      "discount": 10,
+      "created_at": "2023-09-29T17:08:31.373Z",
+      "archived": false,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "Warsaw, Krakowska, 18",
+      "promocode": "xxx1800",
+      "created_at": "2023-06-02T21:14:08.414Z",
+      "user": 3,
+      "products": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 2,
+    "fields": {
+      "delivery_address": "Saint-Petersburg, Nievskiy aleya, 84",
+      "promocode": "city18754",
+      "created_at": "2023-06-02T21:15:09.087Z",
+      "user": 4,
+      "products": [
+        13,
+        3
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 3,
+    "fields": {
+      "delivery_address": "Kiev, Bolotnaya st., 28",
+      "promocode": "",
+      "created_at": "2023-06-13T17:41:02.073Z",
+      "user": 1,
+      "products": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 4,
+    "fields": {
+      "delivery_address": "London, Backington st., 25",
+      "promocode": "SN2025",
+      "created_at": "2023-07-04T18:31:20.369Z",
+      "user": 1,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 5,
+    "fields": {
+      "delivery_address": "Rome, piazza Spagna, 18",
+      "promocode": "",
+      "created_at": "2023-07-06T21:01:56.217Z",
+      "user": 1,
+      "products": [
+        11,
+        3
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 6,
+    "fields": {
+      "delivery_address": "Barcelona, Diagonal al., 25",
+      "promocode": "",
+      "created_at": "2023-08-22T17:21:28.062Z",
+      "user": 6,
+      "products": [
+        10,
+        16
+      ]
+    }
+  },
+  {
+    "model": "myauth.profile",
+    "pk": 5,
+    "fields": {
+      "city": "",
+      "date_of_birth": null
+    }
+  },
+  {
+    "model": "myauth.profile",
+    "pk": 6,
+    "fields": {
+      "city": "",
+      "date_of_birth": null
+    }
+  }
+]
