@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-01 21:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\myauth\views.py:20
+msgid "welcome hello world"
+msgstr "Привет мир!"
+
+#: .\myauth\views.py:26
+#, python-brace-format
+msgid "one product"
+msgid_plural "{count} products"
+msgstr[0] "{count} товар"
+msgstr[1] "{count} товара"
+msgstr[2] "{count} товаров"
+
+#: .\mysite\settings.py:127
+msgid "English"
+msgstr ""
+
+#: .\mysite\settings.py:128
+msgid "Russian"
+msgstr "Русский"
+
+#: .\shopapp\models.py:17 .\shopapp\templates\shopapp\products-details.html:6
+msgid "Product"
+msgstr "Товар"
+
+#: .\shopapp\models.py:18 .\shopapp\templates\shopapp\products-list.html:10
+msgid "Products"
+msgstr "Товары"
+
+#: .\shopapp\models.py:55
+msgid "Order"
+msgstr "Заказ"
+
+#: .\shopapp\models.py:56
+msgid "Orders"
+msgstr "Заказы"
+
+#: .\shopapp\templates\shopapp\product_confirm_delete.html:6
+msgid "Confirm archive"
+msgstr "Подтвердить удаление"
+
+#: .\shopapp\templates\shopapp\product_confirm_delete.html:10
+msgid "Are you sure you want to archive"
+msgstr "Вы уверены что хотите заархивировать товар"
+
+#: .\shopapp\templates\shopapp\product_confirm_delete.html:14
+msgid "Back to product"
+msgstr "Вернуться к товару"
+
+#: .\shopapp\templates\shopapp\product_confirm_delete.html:21
+msgid "Archive"
+msgstr "Архивировать"
+
+#: .\shopapp\templates\shopapp\products-details.html:10
+msgid "Product "
+msgstr "Товар"
+
+#: .\shopapp\templates\shopapp\products-details.html:12
+#, python-format
+msgid ""
+"\n"
+"    <div>Description: <em>%(product.description)s</em></div>\n"
+"    <div>Price: %(product.price)s</div>\n"
+"    <div>Discount: %(product.discount)s</div>\n"
+"    <div>Archived: %(product.archived)s</div>\n"
+"    <div>Created by: %(product.created_by)s</div>\n"
+"    "
+msgstr ""
+"\n"
+"    <div>Описание: <em>%(product.description)s</em></div>\n"
+"    <div>Цена: %(product.price)s</div>\n"
+"    <div>Скидка: %(product.discount)s</div>\n"
+"    <div>Архивирован: %(product.archived)s</div>\n"
+"    <div>Создан: %(product.created_by)s</div>\n"
+"    "
+
+#: .\shopapp\templates\shopapp\products-details.html:25
+#, python-format
+msgid ""
+"\n"
+"        There is only one image.\n"
+"        "
+msgid_plural ""
+"\n"
+"        There are %(image_count)s images.\n"
+"      <h3>Images:</h3>\n"
+"      "
+msgstr[0] ""
+"\n"
+"        Загружена %(image_count)s картинка.\n"
+"      <h3>Изображения:</h3>\n"
+"      "
+msgstr[1] ""
+"\n"
+"        Загружено %(image_count)s картинки.\n"
+"      <h3>Изображения:</h3>\n"
+"      "
+msgstr[2] ""
+"\n"
+"        Загружено %(image_count)s картинок.\n"
+"      <h3>Изображения:</h3>\n"
+"      "
+
+#: .\shopapp\templates\shopapp\products-details.html:39
+msgid "No images uploaded yet"
+msgstr "Нет загруженных изображений"
+
+#: .\shopapp\templates\shopapp\products-details.html:48
+#, python-format
+msgid ""
+"\n"
+"        <p>You have permission to update this product.</p>\n"
+"        <a href=\"%(update_product_url)s\">Update product</a>\n"
+"      "
+msgstr ""
+"\n"
+"        <p>Вы можете обновить этот товар.</p>\n"
+"        <a href=\"%(update_product_url)s\">Обновить товар</a>\n"
+"      "
+
+#: .\shopapp\templates\shopapp\products-details.html:53
+msgid "You do not have permission to update this product"
+msgstr "Вы не можете обновить этот товар"
+
+#: .\shopapp\templates\shopapp\products-details.html:58
+msgid "Archive product"
+msgstr "Заархивировать товар"
+
+#: .\shopapp\templates\shopapp\products-details.html:61
+msgid "Back to products list"
+msgstr "Вернуться к списку товаров"
+
+#: .\shopapp\templates\shopapp\products-list.html:6
+msgid "Products list"
+msgstr "Список товаров"
+
+#: .\shopapp\templates\shopapp\products-list.html:13
+#, python-format
+msgid ""
+"\n"
+"        There is only one product.\n"
+"        "
+msgid_plural ""
+"\n"
+"        There are %(product_count)s products.\n"
+"      "
+msgstr[0] ""
+"\n"
+"        Доступен %(product_count)s товар.\n"
+"        "
+msgstr[1] ""
+"\n"
+"        Доступно %(product_count)s товара.\n"
+"        "
+msgstr[2] ""
+"\n"
+"        Доступно %(product_count)s товаров.\n"
+"        "
+
+#: .\shopapp\templates\shopapp\products-list.html:23
+msgctxt "product name"
+msgid "Name"
+msgstr "Имя товара"
+
+#: .\shopapp\templates\shopapp\products-list.html:24
+msgid "Price"
+msgstr "Цена"
+
+#: .\shopapp\templates\shopapp\products-list.html:25
+msgid "no_discount"
+msgstr "Нет скидки"
+
+#: .\shopapp\templates\shopapp\products-list.html:26
+msgid "Discount"
+msgstr "Скидка"
+
+#: .\shopapp\templates\shopapp\products-list.html:27
+msgid "Created by"
+msgstr "Создан"
+
+#: .\shopapp\templates\shopapp\products-list.html:33
+msgid "You have permission to create new product"
+msgstr "Вы можете создать новый товар"
+
+#: .\shopapp\templates\shopapp\products-list.html:35
+msgid "Create a new product"
+msgstr "Создать новый товар"
+
+#: .\shopapp\templates\shopapp\products-list.html:37
+msgid "You do not have permission to create new product"
+msgstr "Вы не можете создать новый товар"
+
+#: .\shopapp\templates\shopapp\products-list.html:43
+#, python-format
+msgid ""
+"\n"
+"    <h3>No products yet</h3>\n"
+"    <div>\n"
+"        <a href=\"%(create_product_url)s\"\n"
+"          >Create a new one</a>\n"
+"    </div>\n"
+"    "
+msgstr ""
+"\n"
+"    <h3>Пока нет товаров</h3>\n"
+"    <div>\n"
+"        <a href=\"%(create_product_url)s\"\n"
+"          >Создать новый</a>\n"
+"    </div>\n"
+"    "
+
+#: .\shopapp\templates\shopapp\shop-index.html:6
+msgid "Shop Index"
+msgstr "Магазин"
+
+#: .\shopapp\templates\shopapp\shop-index.html:11
+msgid "Hello Shop Index!"
+msgstr "Приветствуем в онлайн-магазине!"
+
+#: .\shopapp\templates\shopapp\shop-index.html:22
+msgid "No products here"
+msgstr "Здесь нет продуктов"
+
+#: .\shopapp\templates\shopapp\shop-index.html:28
+msgid "You have"
+msgstr "У вас есть"
+
+#: .\shopapp\templates\shopapp\shop-index.html:32
+msgid "Time running"
+msgstr "Время выполнения"
+
+#: .\shopapp\templates\shopapp\shop-index.html:41
+#, python-format
+msgid ""
+"\n"
+"      <li><a href=\"%(products_list_url)s\">Products</a></li>\n"
+"      <li><a href=\"%(orders_list_url)s\">Orders</a></li>\n"
+"      "
+msgstr ""
+"\n"
+"      <li><a href=\"%(products_list_url)s\">Товары</a></li>\n"
+"      <li><a href=\"%(orders_list_url)s\">Заказы</a></li>\n"
+"      "
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Archived"
+#~ msgstr "Архивирован"
+
+#~ msgid "Images"
+#~ msgstr "Изображения"
+
+#~ msgid "You have permission to update this product"
+#~ msgstr "Вы можете обновить этот товар"
+
+#~ msgid "Update product"
+#~ msgstr "Обновить товар"
