@@ -1,4 +1,5 @@
 from json import dumps
+from django.contrib.auth.mixins import UserPassesTestMixin
 from django.contrib.auth.models import User, Permission
 from django.test import TestCase
 from django.urls import reverse
@@ -16,27 +17,30 @@ class AddTwoNumbers(TestCase):
 
 
 class ProductCreateViewTestCase(TestCase):
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+        permission_create_product = Permission.objects.get(
+            codename='add_product',
+        )
+        cls.user = User.objects.create_user(username='Masha', password='Masha1994!')
+        cls.user.user_permissions.add(permission_create_product)
+
+    def setUp(self) -> None:
+        self.client.force_login(self.user)
         self.product_name = "".join(choices(ascii_letters, k=10))
         Product.objects.filter(name=self.product_name).delete()
-        permission_update_product = Permission.objects.get(
-            codename='change_product',
-        )
-        self.user = User.objects.create_user(username='Anton', password='qwerty1234')
-        self.user.user_permissions.add(permission_update_product)
-
 
     def test_create_product(self):
         response = self.client.post(
             reverse("shopapp:product_create"),
             {
-                "name": "Table",
-                "price": "123.42",
+                "name": self.product_name,
+                "price": "123.45",
                 "description": "A good table",
                 "discount": "10",
             }
         )
-        self.client.force_login(self.user)
         self.assertRedirects(response, reverse("shopapp:products_list"))
         self.assertTrue(
             Product.objects.filter(name=self.product_name).exists()
@@ -67,12 +71,13 @@ class ProductDetailsViewTestCase(TestCase):
 
 class ProductsListViewTestCase(TestCase):
     fixtures = [
+        'product-fixture.json',
         'user-fixture.json',
     ]
 
     def test_product(self):
         response = self.client.get(reverse('shopapp:products_list'))
-        self.assertQuerySetEqual(
+        self.assertQuerysetEqual(
             qs=Product.objects.filter(archived=False).all(),
             values=(p.pk for p in response.context['products']),
             transform=lambda p: p.pk,
@@ -105,6 +110,7 @@ class OrdersListViewTestCase(TestCase):
 
 class ProductsExportViewTestCase(TestCase):
     fixtures = [
+        'product-fixture.json',
         'user-fixture.json',
     ]
 
@@ -169,7 +175,6 @@ class OrdersExportViewTestCase(TestCase):
 
     @classmethod
     def setUpClass(cls):
-        super().setUpClass()
         cls.user = User.objects.create_user(username='Shaun', password='qwerty123', is_staff=True)
 
     @classmethod
@@ -200,3 +205,4 @@ class OrdersExportViewTestCase(TestCase):
             orders_data['orders'],
             expected_data
         )
+
