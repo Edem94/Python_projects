@@ -1,7 +1,7 @@
 from random import choice
 import telebot
 
-TOKEN = "6312946674:AAFnEN6vanGOzQxAdg9rjq8ZNzW6ui7h6yg"
+# TOKEN = [new token should be created by user]
 bot = telebot.TeleBot(TOKEN)
 
 
