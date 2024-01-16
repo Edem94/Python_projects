@@ -1,7 +1,8 @@
 from random import choice
 import telebot
 
-# TOKEN = [new token should be created by user]
+# new token should be generated and added by user when the bot is created
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 
